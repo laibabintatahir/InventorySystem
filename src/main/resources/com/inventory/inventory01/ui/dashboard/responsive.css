@@ -1,0 +1,53 @@
+#mainPane {
+    -fx-background-color: #222;
+    -fx-pref-height: 100%;
+    -fx-pref-width: 100%;
+    -fx-max-height: 900.0;
+    -fx-max-width: 1054.0;
+    /*-fx-min-height: -Infinity;*/
+    /*-fx-min-width: -Infinity;*/
+}
+
+#leftPane {
+    -fx-background-color: #444;
+    -fx-pref-height: 100%;
+    -fx-pref-width: 245.0;
+}
+
+#left {
+    -fx-pref-height: 132.0;
+    -fx-pref-width: 100%;
+}
+
+.menuItems {
+    -fx-pref-height: 100%;
+    -fx-pref-width: 255.0;
+}
+
+#logoutButton {
+    -fx-layout-y: 100%;
+}
+
+#contentArea {
+    -fx-background-color: #222;
+}
+
+@media screen and (max-width: 768px) {
+    #mainPane {
+        -fx-max-width: 768px;
+    }
+
+    #leftPane {
+        -fx-pref-width: 100%;
+    }
+
+    .menuItems {
+        -fx-pref-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #mainPane {
+        -fx-max-width: 480px;
+    }
+}

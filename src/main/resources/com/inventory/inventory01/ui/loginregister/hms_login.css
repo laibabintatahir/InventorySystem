@@ -1,0 +1,13 @@
+AnchorPane{
+    -fx-background-color: #eee;
+}
+
+/*Set title font to bold, set font to Roboto*/
+.title {
+    -fx-font-weight: bolder;
+    -fx-font-family: "Roboto Light";
+}
+/*Set Login text to Old Times English font*/
+.loginText {
+    -fx-font-family: "Old English Text MT";
+}
